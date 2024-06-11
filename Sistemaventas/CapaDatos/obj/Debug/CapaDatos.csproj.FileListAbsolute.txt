@@ -1,0 +1,9 @@
+D:\Softech\Sistemaventas\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Softech\Sistemaventas\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Softech\Sistemaventas\CapaDatos\bin\Debug\CapaEntidad.dll
+D:\Softech\Sistemaventas\CapaDatos\bin\Debug\CapaEntidad.pdb
+D:\Softech\Sistemaventas\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\Softech\Sistemaventas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Softech\Sistemaventas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Softech\Sistemaventas\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Softech\Sistemaventas\CapaDatos\obj\Debug\CapaDatos.pdb

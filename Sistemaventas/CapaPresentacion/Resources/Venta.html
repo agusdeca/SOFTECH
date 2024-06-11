@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factura Simulada</title>
+    <style>
+        /* Estilos CSS para dar formato a la factura */
+        .factura {
+            width: 80%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .as {
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            border-left: 2px solid #000;
+            border-right: 2px solid #000;
+        }
+        .total {
+            text-align: right;
+            padding-left: 20px;
+            border-top: 2px solid #000;
+        }
+        .encabezado {
+            text-align: center;
+            border-bottom: 2px solid #000;
+        }
+        .empresa-info {
+            border-bottom: 2px solid #000;
+        }
+        .cliente-info {
+            border-bottom: 2px solid #000;
+        }
+
+        .cliente-info {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            margin-bottom: 50px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        .cae {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="factura">
+        <div class="as">
+            <div class="encabezado">
+                <h1>Factura</h1>
+                <H2>Tipo:A</H2>
+                <p>Compr Nro:@numerodocumento</p>
+            </div>
+            <div class="empresa-info">
+                <h2>Información Vendedor:</h2>
+                <p>Razon social: @nombrenegocio</p>
+                <p>CUIT: @CUITNegocio</p>
+                <p>Dirección: @direcnegocio</p>
+            </div>
+            <div class="cliente-info">
+                <h2>Información del Cliente:</h2>
+                <p>Nombre: @nombrecliente</p>
+                <p>DNI: @doccliente</p>
+            </div>
+            <table>
+                <thead>
+                    <tr style="background-color:#CACACA">
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Sub Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @filas
+                </tbody>
+            </table>
+            <div class="total">
+                <p>Total a pagar: @montototal </p>
+            </div>
+        </div>
+        <div class="cae">
+            <p>CAE: @CAE </p>
+            <p>Vencimiento Cae: @vencimientocae</p>
+        </div>
+    </div>
+</body>
+</html>
